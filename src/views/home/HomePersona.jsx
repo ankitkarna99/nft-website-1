@@ -213,7 +213,7 @@ const HomePersona = ({ characters }) => {
                             }
                           }
                         >
-                          <div style={{ fontWeight: 600 }}>Your Current Level: Level 0</div>
+                          <div style={{ fontWeight: 600 }}>Your Current Level: Level {userLevel}</div>
                           <div style={{ fontWeight: 500 }}>Level up by earning points through policy purchase, adding liquidity or do both simultaneously.</div>
                           <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
                             <a href='https://neptunemutual.com/docs/neptune-mutual-nfts/' target='_blank'>
